@@ -36,17 +36,6 @@ Dans le fichier principal de notre application se trouve un troisième fichier v
 - terraform.tfvars permet de définir des valeurs alternatives pour les variables, ces valeurs peuvent être appellées en utilisant un -var-file=terraform.tfvars lors d'un apply ou d'un plan. 
 
 
-## Explication du code 
-
-
-* _Pour le module ec2_ :
-
-* _Pour le module Eip_Publique_ :
-
-* _Pour le module SecutiryGroup_ :
-
-* _Pour le module ebs_ :
-
 ## Execution du projet
 
 Afin de lancer notre projet Terraform, nous allons avoir besoin d'exécuter plusieurs commandes.
