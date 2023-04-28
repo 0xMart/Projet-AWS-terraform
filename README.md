@@ -18,17 +18,10 @@ Nous devons également, si possible :
 - poussez le projet sur GitHub et partager le lien de votre repo à o.nebie@ecole-ipssi.net (Optionnel)
 - faire un rapport pour accompagner notre solution (le readme) 
 
-### Architecture
+## Architecture
 
 Voici l'arboressence de notre projet :
 
-* _Pour_ _Windows_ :
-
-  Pour installer python il faut se rendre sur https://www.python.org/downloads/
-
-* _Pour_ _Ubuntu_ :
-
-  Pour installer python il faut utiliser la commande sudo apt-get install python
 
 ## Démarrage
 
