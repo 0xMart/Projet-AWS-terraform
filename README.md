@@ -6,7 +6,6 @@
 
 ---
 
-***
 
 Dans le cadre de notre semaine de formation sur les outils terraform et puppet nous avons un projet terraform à créer
 
