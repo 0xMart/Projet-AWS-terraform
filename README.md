@@ -1,5 +1,5 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->  
-<img src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" alt="Logo Terraform" width="100"/>
+<img src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" alt="Logo Terraform" width="1000"/>
 
 # Projet-AWS-terraform
 
