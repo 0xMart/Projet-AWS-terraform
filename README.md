@@ -26,7 +26,12 @@ Voici l'arboressence de notre projet :
 
 ## Fichier Terraform de base pour créer une instance
 
-Dans 
+Dans chancun de nos modules terraform nous avons 3 fichiers :
+- main.tf permet de définir les ressources à créer, les modifier ou les supprimer pour provisionner une infrastructure.
+- variable.tf permet de définir les variables qui seront utilisées dans la configuration principale (main.tf) ou dans d'autres fichiers de configuration, afin de rendre la configuration plus modulaire et facilement adaptable aux différents environnements.
+- terraform.tfvars permet de définir des valeurs pour les variables utilisées dans la configuration principale (main.tf) ou dans d'autres fichiers de configuration, afin de les rendre plus faciles à gérer et à modifier pour les différents environnements. 
+
+
 ## Explication du code 
 
 
