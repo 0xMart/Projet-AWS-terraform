@@ -23,6 +23,7 @@ Nous devons également, si possible :
 
 Voici l'arboressence de notre projet :
 
+![image](https://user-images.githubusercontent.com/38227021/235158938-753323ec-d605-4aba-bb8e-aa6956523604.png)
 
 ## Fichier Terraform de base pour créer une instance
 
