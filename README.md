@@ -4,10 +4,10 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="terraform_logo_dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="terraform_logo_light.svg">
-      <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" height="50">
+      <img src="https://img.shields.io/badge/Made%20with-terraform-blue" alt="Terraform badge">
     </picture>
   </a>
-  <img src="https://img.shields.io/badge/Made%20with-terraform-blue" alt="Terraform badge">
+  <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" height="50">
 </div>
 
 
