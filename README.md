@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->
-<h1>Projet-AWS-terraform</h1>
-<p align="right">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h1>Projet-AWS-terraform</h1>
   <a href="https://terraform.io">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="terraform_logo_dark.svg">
@@ -8,7 +8,8 @@
       <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" height="50">
     </picture>
   </a>
-</p>
+</div>
+
 
 
 ![Forums][discuss-badge]
