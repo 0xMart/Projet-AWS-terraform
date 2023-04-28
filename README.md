@@ -1,4 +1,3 @@
-
 <div style="display:flex; align-items:center;">
   <h1 style="margin-right:auto;">Projet-AWS-terraform</h1>
   <a href="https://terraform.io">
@@ -8,13 +7,9 @@
       <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" height="50">
     </picture>
   </a>
+  <img src="https://img.shields.io/badge/Made%20with-terraform-blue" alt="Terraform badge">
 </div>
 
-
-
-![Forums][discuss-badge]
-
-[discuss-badge]: https://img.shields.io/badge/Made%20with-terraform-blue
 
 
 Dans le cadre de notre semaine de formation sur les outils terraform et puppet nous avons un projet terraform à créer
