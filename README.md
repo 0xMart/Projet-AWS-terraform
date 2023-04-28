@@ -20,6 +20,8 @@ Nous devons également, si possible :
 
 ### Architecture
 
+Voici l'arboressence de notre projet :
+
 * _Pour_ _Windows_ :
 
   Pour installer python il faut se rendre sur https://www.python.org/downloads/
