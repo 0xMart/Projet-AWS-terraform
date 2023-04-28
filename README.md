@@ -9,7 +9,7 @@ Dans le cadre de notre semaine de formation sur les outils terraform et puppet n
 ## Sujet
 
 Dans le cadre du projet nous devons déployer une infrastructure complète AWS avec Terrafom, les prérequis sont :
-- un module pour créer une instance ec2 utilisant la dernière version de ubuntu
+- un module pour créer une instance ec2 utilisant la dernière version de ubuntu bionic, cette version n'étant pas disponnible nous avons opté pour focal
 - un module pour créer un volume ebs dont la taille sera variabilisée
 - un module pour créer une security qui ouvrira le 80 et 443
 - un dossier app qui va utiliser les 4 modules pour déployer une ec2
