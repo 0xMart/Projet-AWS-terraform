@@ -18,12 +18,7 @@ Nous devons également, si possible :
 - poussez le projet sur GitHub et partager le lien de votre repo à o.nebie@ecole-ipssi.net (Optionnel)
 - faire un rapport pour accompagner notre solution (le readme) 
 
-### Pré-requis
-
-Il faut executer le fichier ver.py et avoir un dossier test ou le vers pourras ce dupliquer.
-
-
-### Installation
+### Architecture
 
 * _Pour_ _Windows_ :
 
