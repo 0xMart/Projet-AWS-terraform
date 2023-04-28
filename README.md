@@ -61,13 +61,20 @@ En résumé, pour exécuter un projet Terraform, il faut initialiser le réperto
 
 ## Surcharger les variables
 
-Pour surcharger les variables par défaut vous pouvez modifier le fichier variables.tf disponible dans le dossier principal, les valeurs de ce dernier écrasent les valeurs par défaut des modules.
+Pour surcharger les variables par défaut vous pouvez modifier le fichier variables.tf disponible dans le dossier principal, les valeurs de ce dernier écrasent les valeurs par défaut des modules. Les lignes de code ci-dessous correspondent a la surcharge des variables instance_name et instance_type dans l'appel de module ec2.
 
-Pour utiliser les valeurs par défaut, vous pouvez commenter les déclarations de surcharge dans les appels de module.
 ```terraform
   #Surcharge des variables
   instance_name = var.instance_name
   instance_type = var.instance_type
+  ```
+  
+Pour utiliser les valeurs par défaut, vous pouvez commenter les déclarations de surcharge dans les appels de module.
+
+```terraform
+  #Surcharge des variables
+  #instance_name = var.instance_name
+  #instance_type = var.instance_type
   ```
 ```python
 class Worm:
