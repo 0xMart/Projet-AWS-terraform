@@ -5,7 +5,7 @@
 
 Dans le cadre de notre semaine de formation sur les outils terraform et puppet nous avons un projet terraform à créer
 
-_## Sujet_
+## _Sujet_
 
 Dans le cadre du projet nous devons déployer une infra complète aws avec terrafom, les prérequis sont :
 
