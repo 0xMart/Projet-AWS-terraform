@@ -24,11 +24,9 @@ Nous devons également, si possible :
 Voici l'arboressence de notre projet :
 
 
-## Démarrage
+## Fichier Terraform de base pour créer une instance
 
-Pour lancer le logiciel il faut juste taper *Python3 ver.py* sur la machine a infecter
-
-
+Dans 
 ## Explication du code 
 
 
