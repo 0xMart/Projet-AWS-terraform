@@ -1,5 +1,5 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->  
-![DESCRIPTION DE L'IMAGE](https://www.svgrepo.com/show/376353/terraform.svg)
+![DESCRIPTION DE L'IMAGE](https://www.svgrepo.com/show/376353/terraform.svg =100x)
 # Projet-AWS-terraform
 
 ![Forums][discuss-badge]
