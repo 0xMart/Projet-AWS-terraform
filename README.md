@@ -1,13 +1,15 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->
-# Projet-AWS-terraform
-<a href="https://terraform.io">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="terraform_logo_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="terraform_logo_light.svg">
-    <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" align="right" height="50">
-  </picture>
-</a>
+<h1>Projet-AWS-terraform</h1>
 
+<p align="right">
+  <a href="https://terraform.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="terraform_logo_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="terraform_logo_light.svg">
+      <img src="terraform_logo_light.svg" alt="Terraform logo" title="Terraform" height="50">
+    </picture>
+  </a>
+</p>
 
 
 ![Forums][discuss-badge]
