@@ -43,20 +43,6 @@ Dans chancun de nos modules terraform nous avons 3 fichiers :
 
 * _Pour le module ebs_ :
 
---------------------------Les imports---------------------
-
-os fournit une façon portable d'utiliser les fonctionnalités dépendantes du système d'exploitation
-
-pynput permet de contrôler et de surveiller les périphériques d'entrée.
-
-datime permet fournir différentes fonctions liées au temps 
-
-logging permet de gerer les logs
-
-
-----------------------Traitement------------------------
-
-Tout d'abords nous avons la class worm pour la création de notre vers , le ver ce copy et ce replique dans un dossier test et modifie les extensions des fichier copié
 
 ```python
 class Worm:
