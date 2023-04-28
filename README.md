@@ -36,9 +36,12 @@ Dans chancun de nos modules terraform nous avons 3 fichiers :
 
 
 * _Pour le module ec2_ :
-_Eip_Publique_:
-_SecutiryGroup_ :
-_ebs_ :
+
+* _Pour le module Eip_Publique_ :
+
+* _Pour le module SecutiryGroup_ :
+
+* _Pour le module ebs_ :
 
 --------------------------Les imports---------------------
 
