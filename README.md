@@ -1,7 +1,5 @@
-# Projet-AWS-terraform
-
 <!-- markdownlint-disable first-line-h1 no-inline-html -->
-# Terraform AWS Provider
+# Projet-AWS-terraform
 
 [![Forums][discuss-badge]][discuss]
 
