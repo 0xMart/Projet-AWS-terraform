@@ -4,4 +4,3 @@
 [![Forums][discuss-badge]][discuss]
 
 [discuss-badge]: https://img.shields.io/badge/Made%20with-terraform-blue
-[discuss]: https://discuss.hashicorp.com/c/terraform-providers/tf-aws/
