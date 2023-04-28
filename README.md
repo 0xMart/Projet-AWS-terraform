@@ -1,6 +1,6 @@
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <h1>Projet-AWS-terraform</h1>
+<div style="display:flex; align-items:center;">
+  <h1 style="margin-right:auto;">Projet-AWS-terraform</h1>
   <a href="https://terraform.io">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="terraform_logo_dark.svg">
