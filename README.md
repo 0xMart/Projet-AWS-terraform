@@ -52,7 +52,9 @@ En résumé, pour exécuter un projet Terraform, il faut initialiser le réperto
 ## Variables
 
 Ci dessous se trouvent les diverses variables modifiables de ce projet, il est conseillé de les modifier en fonction de vos besoins.
+
 app/Variables.tf :
+
 ```terraform
 #Variables Provider
 
@@ -83,7 +85,9 @@ variable "size" {
 }
 ```
 ec2/Variables.tf :
+
 Variables par défaut
+
 ```terraform
 variable "instance_name" {
     default = "Default-Name"
@@ -93,7 +97,9 @@ variable "instance_type" {
 }
 ```
 ebs/Variables.tf :
+
 Variables par défaut
+
 ```terraform
 variable "size" {
     default = 10
