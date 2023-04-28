@@ -51,7 +51,7 @@ Terraform apply : Cette commande permet d'appliquer les modifications apportées
 En résumé, pour exécuter un projet Terraform, il faut initialiser le répertoire de travail en exécutant la commande "terraform init", générer le plan d'exécution en exécutant la commande "terraform plan" et appliquer les modifications en exécutant la commande "terraform apply".
 ## Variables
 
-Ci dessous se trouvent les diverses variables modifiables de ce projet, il est conseillé de les modifier en fonction de vos besoins.
+Ci dessous se trouvent les diverses variables modifiables de ce projet, il est conseillé de les modifier en fonction de vos besoins. Les variables situés en dessous du commentaire #Surcharge de variables sont utilisés pour surcharger les variables par défaut des modules, pour plus d'informations sur les surcharges de variables consultez le sujet en dessous.
 
 app/Variables.tf :
 
