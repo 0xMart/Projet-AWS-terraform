@@ -1,5 +1,6 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->  
-![DESCRIPTION DE L'IMAGE](https://www.svgrepo.com/show/376353/terraform.svg) 
+<img src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" alt="Logo Terraform" width="100"/>
+
 # Projet-AWS-terraform
 
 ![Forums][discuss-badge]
