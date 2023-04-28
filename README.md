@@ -15,7 +15,7 @@ Dans le cadre du projet nous devons déployer une infra complète aws avec terra
 - un module pour créer une instance ec2 utilisant la dernière version de ubuntu
 - un module pour créer un volume ebs dont la taille sera variabilisée
 - un module pour créer une security qui ouvrira le 80 et 443
-- un dossier app qui va utiliser les 4 modules pour déployer une ec2, bien-sûr vous allez surcharger
+- un dossier app qui va utiliser les 4 modules pour déployer une ec2
 
 
 ### Pré-requis
