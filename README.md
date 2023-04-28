@@ -1,4 +1,4 @@
-<!-- markdownlint-disable first-line-h1 no-inline-html -->
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <h1>Projet-AWS-terraform</h1>
   <a href="https://terraform.io">
