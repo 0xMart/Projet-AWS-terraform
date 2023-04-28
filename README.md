@@ -40,6 +40,8 @@ Dans le fichier principal de notre application se trouve un troisième fichier v
 
 Afin de lancer notre projet Terraform, nous allons avoir besoin d'exécuter plusieurs commandes.
 
+Commencez par renseigner les variables avec les informations correspondant à vos besoins.
+
 Terraform init : Cette commande permet de mettre en place un environnement de travail et l'adapter à Terraform. Cela permet de télécharger les plugins requis liés aux différents providers.
 
 Terraform plan : Cette commande permet d'avoir une prévisualisation des modifications qui vont être apportées à l'infrastructure. Ainsi, on peut voir facilement quelles sont les parties de notre infrastructure qui sont affectées.
@@ -47,7 +49,56 @@ Terraform plan : Cette commande permet d'avoir une prévisualisation des modific
 Terraform apply : Cette commande permet d'appliquer les modifications apportées au fichier de configuration.
 
 En résumé, pour exécuter un projet Terraform, il faut initialiser le répertoire de travail en exécutant la commande "terraform init", générer le plan d'exécution en exécutant la commande "terraform plan" et appliquer les modifications en exécutant la commande "terraform apply".
+## Variables
 
+Ci dessous se trouvent les diverses variables modifiables de ce projet, il est conseillé de les modifier en fonction de vos besoins.
+app/Variables.tf :
+```terraform
+#Variables Provider
+
+variable access_key {
+  default = "Mettez votre propre clé"
+}
+
+variable secret_key {
+  default = "Mettez votre propre clé"
+}
+
+variable regionaws {
+  default = "us-east-1"
+}
+
+#Surcharge des variables 
+
+#EC2
+variable "instance_name" {
+  default = "Custom-Name"
+}
+variable "instance_type" {
+  default = "t2.micro"  
+}
+#EBS
+variable "size" {
+  default =20
+}
+```
+ec2/Variables.tf :
+Variables par défaut
+```terraform
+variable "instance_name" {
+    default = "Default-Name"
+}
+variable "instance_type" {
+    default = "t2.nano"
+}
+```
+ebs/Variables.tf :
+Variables par défaut
+```terraform
+variable "size" {
+    default = 10
+}
+```
 ## Surcharger les variables
 
 Pour surcharger les variables par défaut vous pouvez modifier le fichier variables.tf disponible dans le dossier principal, les valeurs de ce dernier écrasent les valeurs par défaut des modules. Les lignes de code ci-dessous correspondent a la surcharge des variables instance_name et instance_type dans l'appel de module ec2.
