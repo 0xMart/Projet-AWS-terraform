@@ -6,14 +6,16 @@
 [discuss-badge]: https://img.shields.io/badge/Made%20with-terraform-blue
 
 
-Dans le cadre de ma formation j'ai du développer un ver
+Dans le cadre de notre semaine de formation sur les outils terraform et puppet nous avons un projet terraform à créer
 
-le but du Ver informatique et de se reproduit sur plusieurs ordinateurs en utilisant un réseau informatique. 
+## Sujet
 
+Dans le cadre du projet nous devons déployer une infra complète aws avec terrafom, les prérequis sont :
 
-## Pour commencer
-
-Faite attention ce logiciel a été créé dans le but d'apprentissage il ne faut pas l'utiliser a des fin malvaillante. D'ailleur il est supprimé automatiquement par windows defender.
+- un module pour créer une instance ec2 utilisant la dernière version de ubuntu
+- un module pour créer un volume ebs dont la taille sera variabilisée
+- un module pour créer une security qui ouvrira le 80 et 443
+- un dossier app qui va utiliser les 4 modules pour déployer une ec2, bien-sûr vous allez surcharger
 
 
 ### Pré-requis
