@@ -8,10 +8,10 @@ Dans le cadre de notre semaine de formation sur les outils terraform et puppet n
 ## Sujet
 
 Dans le cadre du projet nous devons déployer une infrastructure complète AWS avec Terrafom, les prérequis sont :
-•    un module pour créer une instance ec2 utilisant la dernière version de ubuntu
-•    un module pour créer un volume ebs dont la taille sera variabilisée
-•    un module pour créer une security qui ouvrira le 80 et 443
-•    un dossier app qui va utiliser les 4 modules pour déployer une ec2
+- un module pour créer une instance ec2 utilisant la dernière version de ubuntu
+- un module pour créer un volume ebs dont la taille sera variabilisée
+- un module pour créer une security qui ouvrira le 80 et 443
+- un dossier app qui va utiliser les 4 modules pour déployer une ec2
 
 Nous devons également, si possible :
 •    installer nginx et enregistrer l’ip publique dans un fichier nommé ip_ec2.txt (ces éléments sont à intégrer dans le rôle ec2)
