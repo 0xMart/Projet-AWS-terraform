@@ -35,7 +35,10 @@ Dans chancun de nos modules terraform nous avons 3 fichiers :
 ## Explication du code 
 
 
-* _Pour_ _ver.py_ :
+* _Pour le module ec2_ :
+_Eip_Publique_:
+_SecutiryGroup_ :
+_ebs_ :
 
 --------------------------Les imports---------------------
 
