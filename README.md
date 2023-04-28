@@ -3,6 +3,7 @@
  <img src="https://img.shields.io/badge/Made%20with-terraform-blue" alt="Terraform badge">
 </div>
 
+
 Dans le cadre de notre semaine de formation sur les outils terraform et puppet nous avons un projet terraform à créer
 
 ## Sujet
