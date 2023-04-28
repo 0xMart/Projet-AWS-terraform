@@ -14,10 +14,9 @@ Dans le cadre du projet nous devons déployer une infrastructure complète AWS a
 - un dossier app qui va utiliser les 4 modules pour déployer une ec2
 
 Nous devons également, si possible :
-•    installer nginx et enregistrer l’ip publique dans un fichier nommé ip_ec2.txt (ces éléments sont à intégrer dans le rôle ec2)
-•    poussez le projet sur GitHub et partager le lien de votre repo à o.nebie@ecole-ipssi.net (Optionnel)
-•    faire un rapport pour accompagner notre solution
-•    fournir le code sous forme zip 
+- installer nginx et enregistrer l’ip publique dans un fichier nommé ip_ec2.txt (ces éléments sont à intégrer dans le rôle ec2)
+- poussez le projet sur GitHub et partager le lien de votre repo à o.nebie@ecole-ipssi.net (Optionnel)
+- faire un rapport pour accompagner notre solution (le readme) 
 
 ### Pré-requis
 
