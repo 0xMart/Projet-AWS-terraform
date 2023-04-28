@@ -1,4 +1,4 @@
-<!-- markdownlint-disable first-line-h1 no-inline-html -->
+<!-- markdownlint-disable first-line-h1 no-inline-html -->  ![DESCRIPTION DE L'IMAGE](https://www.svgrepo.com/show/376353/terraform.svg)
 # Projet-AWS-terraform
 
 ![Forums][discuss-badge]
