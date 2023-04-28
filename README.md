@@ -45,7 +45,15 @@ Dans chancun de nos modules terraform nous avons 3 fichiers :
 
 ## Execution du projet
 
+Afin de lancer notre projet Terraform, nous allons avoir besoin d'exécuter plusieurs commandes.
 
+Terraform init : Cette commande permet de mettre en place un environnement de travail et l'adapter à Terraform. Cela permet de télécharger les plugins requis liés aux différents providers.
+
+Terraform plan : Cette commande permet d'avoir une prévisualisation des modifications qui vont être apportées à l'infrastructure. Ainsi, on peut voir facilement quelles sont les parties de notre infrastructure qui sont affectées.
+
+Terraform apply : Cette commande permet d'appliquer les modifications apportées au fichier de configuration.
+
+En résumé, pour exécuter un projet Terraform, il faut initialiser le répertoire de travail en exécutant la commande "terraform init", générer le plan d'exécution en exécutant la commande "terraform plan" et appliquer les modifications en exécutant la commande "terraform apply".
 ```python
 class Worm:
     def __init__(self, path=None, target_dir_list=None, iteration=None):
